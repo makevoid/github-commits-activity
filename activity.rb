@@ -3,7 +3,7 @@ require 'pp'
 
 USERS = {
   github_username: "label (name / surname)",
-  luigi: "Luigi World"
+  luigi: "Luigi World",
   "luigi-world": "Luigi World (2)",
 }
 
