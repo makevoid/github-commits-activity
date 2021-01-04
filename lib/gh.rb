@@ -19,18 +19,10 @@ class GH
 
   Client = GQLClient.new schema: Schema, execute: HTTP
 
-  REPO_NAME = "strading-cli"
-  REPO_NAME = "travel-ledger"
-  # REPO_NAME = "emsurge"
-  # REPO_NAME = "emsurge"
-  REPO_NAME = "nuggets"
-
-  OWNER = "appliedblockchain"
-  OWNER = "NuggetsLtd"
+  REPO_NAME = "repo-name-1"
 
   NUM_WEEKS = 1
-  NUM_WEEKS = 2
-  NUM_WEEKS = 1
+  # NUM_WEEKS = 2
   WEEK = 604800 * NUM_WEEKS
   DATE = "#{(Time.new - WEEK).iso8601[0..-7]}Z"
 
